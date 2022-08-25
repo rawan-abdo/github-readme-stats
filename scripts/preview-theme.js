@@ -67,7 +67,7 @@ function getWebAimLink(color1, color2) {
 }
 
 function getGrsLink(colors) {
-  const url = `https://github-readme-stats.vercel.app/api?username=anuraghazra`;
+  const url = `https://github-readme-stats.vercel.app/api?username=rawan-abdo`;
   const colorString = Object.keys(colors)
     .map((colorKey) => `${colorKey}=${colors[colorKey]}`)
     .join("&");
